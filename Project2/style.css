@@ -1,0 +1,121 @@
+<style>
+body {
+}
+body{
+    background-color: #4ABDAC;
+    font: 90% Ariel. Helvetica, sans-serif;
+    margin: 10px;
+}
+
+
+#Navigation{
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+#Navigation li  {
+    height: auto;
+    width: 150px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font:16px "Bonveno", "Century Gothic";
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    background-color: #F7B733;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 0 rgba(255,255,255, .9) inset, 0 1px 3px rgba(0,0,0, .1);
+    border-radius: 3px;
+  margin-left:10px;
+}
+
+#Navigation a{                          
+    padding:13px;
+    text-decoration: none; 
+    color:#333;
+    text-shadow: 0 1px #fff;
+    display: block;
+}
+#Navigation li ul{
+    display: none;
+    height: auto;                                   
+    margin-left: -11px;
+    padding: 0;     
+}               
+
+#Navigation li:hover ul{
+    display: block;
+}
+
+.navbar li ul li {
+    background-color:#eee;
+    border: 1px solid #ccc;
+} 
+
+#Navigation li:hover, a:hover {
+     background: #e8e8e8;
+}
+
+
+
+
+
+
+
+label {
+    color: navy;
+    float: left;
+    width: 8em;
+    font-weight: bold;
+    text-align: right;
+}
+
+input {
+    width: 15em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+
+input:focus {
+    border: 2px solid navy;
+}
+
+#button, #reset{
+    width: 7em;
+    box-shadow; 2px 2px 0 navy;
+    background-color: silver;
+}
+
+#button {
+    margin-left: 7em;
+    font:16px "Bonveno", "Century Gothic";
+    font-weight: bold;
+}
+
+#reset {
+    font:16px "Bonveno", "Century Gothic";
+    font-weight: bold;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    padding: 0px;
+
+}
+
+#form{
+    background-color: white;
+    width: 80%;
+    border: 25px solid black;
+    padding 25px;
+    margin: 25px;
+    align: center;
+
+}
+
+</style>
