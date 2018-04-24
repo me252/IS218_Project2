@@ -31,7 +31,7 @@ rel="stylesheet">
 Incomplete Tasks
 </h2>
 <div id= tasks_Table>
-<table border=\"1\"><tr><th>Task ID</th><th>Date Created</th><th>Due Date</th><th>Description</th></tr>
+<table border=\"1\" style="background-color:white;" ><tr><th>Task ID</th><th>Date Created</th><th>Due Date</th><th>Description</th></tr>
 <br>
 <?php
 while($row = mysql_fetch_array($results_u)){
@@ -67,7 +67,7 @@ while($row = mysql_fetch_array($results_u)){
 Complete Tasks
 </h2>
 
-<table border=\"1\"><tr><th>Task ID</th><th>Date Created</th><th>Due Date</th><th>Description</th></tr>
+<table border=\"1\" style="background-color:white;"><tr><th>Task ID</th><th>Date Created</th><th>Due Date</th><th>Description</th></tr>
 <br>
 <?php
 while($row = mysql_fetch_array($results_c)){
@@ -87,6 +87,7 @@ while($row = mysql_fetch_array($results_c)){
   <input type="hidden" name="ownerid" value="<?php echo $_SESSION['ownerid'];?>">
   <input type="submit" value="Add Task">
 </form>
+
 </body>
 </html>
 

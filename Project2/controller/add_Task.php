@@ -3,7 +3,7 @@
 session_start();
 require (  "../model/db.php" );
 
-date_default_timezone_set('America/New York');
+date_default_timezone_set('America/Los_Angeles');
 $date_c = date('Y-m-d G:i:s');
 $date_d = $_GET["duedate"];
 $message = $_GET["message"];

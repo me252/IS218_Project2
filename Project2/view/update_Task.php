@@ -15,7 +15,7 @@ rel="stylesheet">
 <br><br><br>
 
 
-<form action = "..\controller\update_Task.php" method = "post" >
+<form action = "..\controller\update_Task.php" >
 
 <div id="form">
     <br>
